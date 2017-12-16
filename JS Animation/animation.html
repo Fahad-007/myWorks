@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+
+	<h1>Fortune Teller</h1>
+	<p>Think of a Yes-or-No Qustion,</p>
+
+	<button onclick="tell_fortune()">Tell Fortune</button>
+
+	<p>
+		Answer: <span id="answer"></span>
+	</p>
+
+	<hr>
+
+	<h1>Stopwatch</h1>
+
+	<button onclick="start()" id="start_button">Start</button>
+	<button onclick="stop()">Stop</button>
+	<button onclick="reset()">Reset</button>
+
+	<div id="time">0</div>
+	<hr>
+
+	<h1>Animation</h1>
+
+	<img src="img/img/passage_1.png" id="passage">
+
+	<img src="img/img/hero.png" id="hero" onclick="start_moving()">
+
+	<dir id="massage_box">Click on the hero to make him move</dir>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
